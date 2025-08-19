@@ -1,0 +1,68 @@
+# QA Portfolio: Example Test Cases
+
+---
+
+## Test Case 1: Mark Habit as Done
+
+**ID:** TC01  
+**Title:** Mark "Drink Water" habit as done  
+**Module:** Habit Tracker  
+**Type:** Manual Test  
+
+### Precondition:
+- Habit "Drink Water" exists on the main page.
+
+### Steps:
+1. Open the Habit Tracker app.  
+2. On the main page, locate the habit "Drink Water".  
+3. Click the checkbox or "Done" button next to the habit.  
+
+### Expected Result:
+- Habit is marked as completed.  
+- UI shows tick mark or strikethrough.  
+- Daily habit count increments.
+
+---
+
+## Test Case 2: Inspiring Tab – Display Quote
+
+**ID:** TC02  
+**Title:** Display Marie Curie quote in Inspiring tab  
+**Module:** Inspiring  
+**Type:** Manual Test  
+
+### Precondition:
+- App is on main dashboard page.
+
+### Steps:
+1. Open the Habit Tracker app.  
+2. Navigate to the "Inspiring" tab.  
+3. Click the label/link "History is one click away" under Marie Curie.
+
+### Expected Result:
+- Image and description of Marie Curie are displayed.  
+- Content is correctly aligned and readable.
+
+---
+
+## Test Case 3: Add Habit via Reflection Tab
+
+**ID:** TC03  
+**Title:** Add new habit from Reflection tab  
+**Module:** Reflection / Add Habit  
+**Type:** Manual Test  
+
+### Precondition:
+- App is on main dashboard page.
+
+### Steps:
+1. Open the Habit Tracker app.  
+2. Navigate to the "Reflection" tab from the toolbar.  
+3. Click "Add Habit" button.  
+4. In the sheet that opens, enter the habit name (e.g., "Morning Run").  
+5. Confirm to save the habit.  
+6. Return to the main page.
+
+### Expected Result:
+- New habit appears on the main page.  
+- UI updates to show the habit correctly.

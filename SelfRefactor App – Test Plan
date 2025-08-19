@@ -1,0 +1,19 @@
+Scope:
+Test core features: daily quotes, habit tracker, mood summary, journal, goals, and page navigation.
+
+Objectives:
+Ensure app functionality works as expected and UI displays correctly. Detect bugs and document with screenshots.
+
+Areas to Test:
+Main Page: Quotes, habit tracker, mood summary.
+Inspiring Page: Labels, quotes, images.
+Reflection Page: Journal, mood tracker, add habit, goals.
+Navigation: Toolbar buttons navigate correctly.
+
+Risks:
+Delayed content loading.
+UI misalignment or placeholder issues.
+Data persistence errors.
+
+Approach:
+Manual exploratory testing, plus basic automation via Appium where possible.

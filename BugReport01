@@ -1,0 +1,25 @@
+# Bug Report: Slow Loading and UI Display Issue in Manage Goals
+
+**ID:** BUG01  
+**Module:** Manage Goals  
+**Description:**  
+Page in "Manage Goals" takes a long time to load, and UI displays incorrectly before data is fully loaded (elements overlapping / misaligned).
+
+**Steps to Reproduce:**
+1. Open the Habit Tracker app.  
+2. Navigate to "Manage Goals" tab.  
+3. Observe page loading behavior and UI before data appears.
+
+**Expected Result:**  
+- Page should load promptly.  
+- UI elements should remain stable and aligned while data is loading (use loading placeholders or spinners).
+
+**Actual Result:**  
+- Long delay before data is displayed.  
+- UI elements show an inconsistent layout with empty gray rectangles in the middle-right area before data loads.
+
+**Screenshot:**  
+See BugReport01.png in this folder for screenshot.
+
+**Severity:** Medium  
+**Status:** Open
